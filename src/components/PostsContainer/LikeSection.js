@@ -12,7 +12,7 @@ const LikeSection = props => {
         className="like-section"
         key="likes-icons-container"
       >
-        <div className="like-section-wrapper" onClick={() => { props.UpdateLikes(props.idPost)}}>
+        <div className="like-section-wrapper" onClick={() => { props.UpdateLikes(props.idPost) }}>
           <FontAwesomeIcon icon={faHeart} />
         </div>
         <div className="like-section-wrapper">
